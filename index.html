@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança em Computadores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3602/3602123.png">
+    <style>
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .icon-text img {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Segurança Digital: Proteja Seu Mundo com um Clique!</h1>
+    </header>
+
+    <section>
+        <h2>Por que proteger seu computador?</h2>
+        <div class="icon-text">
+            <img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" alt="Segurança">
+            <p>Manter seu computador seguro é essencial para garantir a integridade e a privacidade de seus dados pessoais e profissionais. Um dispositivo protegido ajuda a evitar que informações sensíveis, como senhas, dados bancários, documentos de trabalho, fotos e vídeos sejam acessados, modificados ou roubados por cibercriminosos.</p>
+        </div>
+        <p>Além de proteger os dados do usuário, a segurança do computador impede que o equipamento seja utilizado como ferramenta para ataques cibernéticos em larga escala, como distribuição de spam, disseminação de malwares ou invasão a sistemas de terceiros. Em ambientes corporativos ou acadêmicos, um computador inseguro pode comprometer redes inteiras e afetar outros usuários conectados.</p>
+        <p>Adotar boas práticas de segurança é uma atitude preventiva que reduz riscos, aumenta a vida útil do equipamento e proporciona uma navegação mais confiável. Com o avanço constante das ameaças digitais, investir em segurança deixou de ser uma opção e se tornou uma necessidade básica do mundo conectado.</p>
+    </section>
+
+    <section>
+        <h2>Ameaças comuns à segurança de computadores</h2>
+        <ul>
+            <li><strong>Malwares:</strong> Softwares maliciosos como vírus, trojans e ransomware que causam danos ou roubam dados.</li>
+            <li><strong>Phishing:</strong> Golpes que tentam enganar o usuário para que ele forneça informações confidenciais.</li>
+            <li><strong>Spyware:</strong> Programas espiões que monitoram a atividade do usuário sem permissão.</li>
+            <li><strong>Keyloggers:</strong> Registram tudo que é digitado, como senhas e mensagens.</li>
+            <li><strong>Rootkits:</strong> Ferramentas que permitem controle remoto do sistema por hackers.</li>
+        </ul>
+    </section>
+
+    <section class="banner">
+        <h2>Banner de Divulgação</h2>
+        <p>Escaneie o QR code abaixo para acessar este site:</p>
+        <img src="qr-code-meutrabalho.png" alt="QR Code para o site">
+    </section>
+
+    <section>
+        <h2>Créditos</h2>
+        <p><strong>Alunos:</strong> Leonardo Ross, Eduardo Cardoso</p>
+        <p><strong>Faculdade:</strong> ATITUS</p>
+        <p><strong>Disciplina:</strong> Cyber Security</p>
+        <p><strong>Professor:</strong> Vitalino Pitt</p>
+        <p><strong>Fontes:</strong><br>
+            - <a href="https://cartilha.cert.br" target="_blank">cartilha.cert.br</a><br>
+            - <a href="https://www.safernet.org.br" target="_blank">safernet.org.br</a><br>
+            - <a href="https://www.kaspersky.com.br/blog" target="_blank">kaspersky.com.br</a><br>
+            - <a href="https://www.avast.com/pt-br/c-computer-security" target="_blank">avast.com</a><br>
+            - <a href="https://support.microsoft.com/pt-br" target="_blank">support.microsoft.com</a>
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 Segurança em Computadores. Todos os direitos reservados.
+    </footer>
+
+    <button id="top-button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+    <script>
+        const topButton = document.getElementById('top-button');
+        window.onscroll = () => {
+            if (window.scrollY > 300) {
+                topButton.style.display = 'block';
+            } else {
+                topButton.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>
